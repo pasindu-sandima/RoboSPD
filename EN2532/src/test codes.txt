@@ -1,0 +1,97 @@
+        // digitalWrite(rm1,HIGH);
+      // digitalWrite(rm2,LOW);
+      // rcount = countright;
+      // analogWrite(Rpwm,200);
+      // while(countright<rcount+250){}
+      // brake();
+      // digitalWrite(lm1,HIGH);
+      // digitalWrite(lm2,LOW);
+      // lcount = countleft;
+      // analogWrite(Lpwm,200);
+      // while(countleft<lcount+250){}
+      // brake();
+  
+  
+  
+  // drive_forward(700,700);
+  // delay(1000);
+  // brake();
+  // while(digitalRead(button1)){
+    
+  // }
+  
+
+
+
+  // drive_forward(400,400);
+  // delay(1000);
+  // brake();
+
+  // pwm.setPWM(magnetservo,0,430);
+
+  // while(true){
+  //   digitalWrite(redled,LOW);
+  //   digitalWrite(greenled,LOW);
+  //   digitalWrite(blueled,LOW);
+  //   detectcolour();
+  //   delay(1000); 
+  // }
+
+  //CoinArmUp();
+
+  // while(anysensor){     //Line following upto the coin collecting area
+  //   line_following();
+  //   //junction();
+  //   delay(10);
+  //   anysensor = ((analogRead(S1)>br)|(analogRead(S2)>br)|(analogRead(S3)>br)|(analogRead(S4)>br)|(analogRead(S5)>br)|(analogRead(S6)>br)|(analogRead(S7)>br)|(analogRead(S8)>br));
+  // }
+  // brake();
+  // delay(200);
+  // collectcoin();
+  // delay(1000);
+  // detectcolour();
+  // countforward(1000);
+  // CoinArmDown();
+  // delay(500);
+  // CoinArmUp();
+  //servo functions
+
+
+  //wall following----- To start use the readings of TOF if they are less than some value start wall following
+  // anysensor = (digitalRead(S1)&&digitalRead(S2)&&digitalRead(S3)&&digitalRead(S4)&&digitalRead(S5)&&digitalRead(S6)&&digitalRead(S7)&&digitalRead(S8));
+  // while(anysensor){
+  //   while(detectjunction){
+  //     wall_following();
+  //     if(anysensor){                       //anysensor is to identify the end of wall_following
+  //       break;
+  //     }
+  //   }
+  //   if(anysensor){
+  //       break;
+  //     }
+  //   junctiontype();
+  // }
+
+
+
+    // delay(1000);
+  // CoinArmDown();
+  // delay(1000);
+  // CoinArmUp();
+  
+  // wall_following();
+  // MagnetNormal();
+  // delay(1000);
+  // MagnetRelease();
+  // delay(1000);
+  // detectcolour();
+  // put your main code here, to run repeatedly:
+  // wall_following();
+
+  // drive_forward(rspeed,lspeed);
+  // Serial3.print(lspeed);
+  // Serial3.print("  ,  ");
+  // Serial3.print(rspeed);
+  // Serial3.print("  ,  ");
+  // Serial3.println(distanceF);
+  // delay(50);

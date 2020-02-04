@@ -1,0 +1,19 @@
+  countforward(300);
+  CoinArmDown();
+  countreverse(300);
+  CoinArmUp();
+  MagnetRelease();
+  for (uint16_t pulselen = coinservoup; pulselen > coinservomid; pulselen--) {
+  pwm.setPWM(coinarmservo, 0, pulselen);
+  } 
+  delay(500);
+  for (uint16_t pulselen = coinservomid; pulselen < coinservoup; pulselen++) {
+  pwm.setPWM(coinarmservo, 0, pulselen);
+  delay(5);
+  }
+  delay(50);
+  MagnetNormal();
+  CoinArmRelease();
+  accelarate(900);
+  CoinArmUp();
+  brake();

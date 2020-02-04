@@ -1,0 +1,82 @@
+
+  digitalWrite(buzzer,HIGH);
+  while ((analogRead(S1)<white_range)&&(analogRead(S2)<white_range)&&(analogRead(S3)<white_range)&&(analogRead(S4)<white_range)&&(analogRead(S5)<white_range)&&(analogRead(S6)<white_range)&&(analogRead(S7)<white_range)&&(analogRead(S8)<white_range))
+  {
+    drive_forward(400,400);
+  }
+  digitalWrite(buzzer,LOW);
+  countforward(200);
+  leftjunction = false;
+  rightjunction = false;
+  
+  while(true){     //Line following upto the coin collecting area
+    line_following();
+    junction();
+    if(junctionflag){
+      break;
+    }
+    delay(10);
+  }
+  rspeed=lspeed=300;
+  while(true){
+    line_following();
+    coinarea = (((analogRead(S1)<white_range)||(analogRead(S2)<white_range))&&((analogRead(S7)<white_range)||(analogRead(S8)<white_range))&&((analogRead(S4)>white_range)||(analogRead(S5)>white_range)));
+    if(coinarea){
+      break;
+    }
+  }
+  brake();
+  digitalWrite(buzzer,HIGH);
+  delay(500);
+  digitalWrite(buzzer,LOW);
+
+  CoinArmDown();
+  
+  rspeed=lspeed=400;
+  
+  time = millis();
+  while(true){
+    line_following();
+    if(millis()>time+1000){
+      break;
+    }
+
+  }
+  brake();
+  CoinArmUp();
+  
+  rightjunction=false;
+  leftjunction=false;
+  while(true){
+    drive_reverse(300,300);
+    if((rightjunction)&&(leftjunction)){
+      break;
+    }
+  }
+  brake();
+  delay(100);
+  countforward(200);
+  brake();
+  turnL45();
+  countforward(200);
+  rspeed=lspeed=200;
+  while(true){
+    line_following();
+    coinarea = (((analogRead(S1)<white_range)||(analogRead(S2)<white_range))&&((analogRead(S7)<white_range)||(analogRead(S8)<white_range))&&((analogRead(S4)>white_range)||(analogRead(S5)>white_range)));
+    if(coinarea){
+      break;
+    }
+  }
+  brake();
+  digitalWrite(buzzer,HIGH);
+  delay(500);
+  digitalWrite(buzzer,LOW);
+  
+  time = millis();
+  while(true){
+    line_following();
+    if(millis()>time+1000){
+      break;
+    }
+  }
+  brake();

@@ -1,0 +1,77 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/include",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/src",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_PWM_Servo_Driver_Library",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_SSD1306",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit-GFX",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/VL53L0X",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/variants/mega",
+                "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_VL53L0X/src",
+                "C:/Users/Pasindu/.platformio/lib/Adafruit GFX Library_ID13",
+                "C:/Users/Pasindu/.platformio/lib/Adafruit SSD1306_ID135",
+                "C:/Users/Pasindu/.platformio/lib/Adafruit TCS34725_ID665",
+                "C:/Users/Pasindu/.platformio/lib/MPU6050_tockn_ID2824/src",
+                "C:/Users/Pasindu/.platformio/lib/RF24_ID433",
+                "C:/Users/Pasindu/.platformio/lib/RF24_ID433/utility",
+                "C:/Users/Pasindu/.platformio/lib/Servo_ID883/src",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/Pasindu/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/include",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/src",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_PWM_Servo_Driver_Library",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_SSD1306",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit-GFX",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/VL53L0X",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "e:/Micromouse/EN2532-20190903T190747Z-001/EN2532/lib/Adafruit_VL53L0X/src",
+                    "C:/Users/Pasindu/.platformio/lib/Adafruit GFX Library_ID13",
+                    "C:/Users/Pasindu/.platformio/lib/Adafruit SSD1306_ID135",
+                    "C:/Users/Pasindu/.platformio/lib/Adafruit TCS34725_ID665",
+                    "C:/Users/Pasindu/.platformio/lib/MPU6050_tockn_ID2824/src",
+                    "C:/Users/Pasindu/.platformio/lib/RF24_ID433",
+                    "C:/Users/Pasindu/.platformio/lib/RF24_ID433/utility",
+                    "C:/Users/Pasindu/.platformio/lib/Servo_ID883/src",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/Pasindu/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/Pasindu/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40100",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"C:/Users/Pasindu/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe\" -mmcu=atmega2560"
+        }
+    ],
+    "version": 4
+}

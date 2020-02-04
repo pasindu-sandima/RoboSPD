@@ -1,0 +1,8 @@
+Straight line speed
+Turn 90
+line following - kp kd
+junctions
+Coin colllecting
+colour detection
+water mechanism
+wall following - kp kd
